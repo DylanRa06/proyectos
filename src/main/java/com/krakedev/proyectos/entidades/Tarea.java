@@ -46,7 +46,9 @@ public class Tarea {
     public Tarea() {
     }
 
-    public Tarea(String descripcion, LocalDate fechaLimite, double costoEstimado, Proyecto proyecto, List<Empleado> empleados) {
+    public Tarea(String descripcion, LocalDate fechaLimite,
+            double costoEstimado, Proyecto proyecto,
+            List<Empleado> empleados) {
         this.descripcion = descripcion;
         this.fechaLimite = fechaLimite;
         this.costoEstimado = costoEstimado;
